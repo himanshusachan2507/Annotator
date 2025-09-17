@@ -9,7 +9,7 @@ This repository is a scaffold for a PDF annotator application:
 
 This ZIP contains two folders: `server/` and `client/`.
 
-## Quick setup (local)
+## Quick setup
 
 ### Prerequisites
 - Node.js (v16+ recommended)
@@ -59,7 +59,7 @@ The React app runs on http://localhost:3000 and talks to the backend at http://l
 - Security:
   - This scaffold includes basic JWT-based auth. For production, add input validation, rate limiting, HTTPS, stronger CORS settings, and secure cookie/session handling.
 
-## What to do next (recommended)
+## What to do next
 - Test upload and highlighting with simple PDFs.
 - Improve the viewer overlay sync (the current scaffold provides the core idea and endpoint wiring).
 - Add rename, edit highlight (notes) UI.
